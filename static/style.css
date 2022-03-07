@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Poppins:400,500');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    -webkit-tap-highlight-color:rgba(238, 125, 125, 0);
+    -webkit-text-size-adjust:none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    justify-content: center;
+    overflow: auto;
+}
+
+.main {
+    background-color:#fff;
+	width: 600px;
+	height: 600px;
+	margin: 4em auto;
+	border-radius: 30px;
+	padding: 1em;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 6px 31px -2px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.head {
+    padding: 10px 0 10px 0;
+    color: #8C55AA;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+
+.head_2 {
+    color: rgb(241, 2, 2);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+form {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    cursor: pointer;
+    color: #2779b0;
+    border: 0;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    background: linear-gradient(to right, #b0276c, #b939f5);
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+
+#photo{
+    width: 300px;
+    height: 300px;
+    margin: 2em auto;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 6px 31px -2px rgba(0, 0, 0, .3);
+}
+
+#close {
+    position: absolute;
+    float: right;
+    top: -15px;
+    right: -15px;
+    background-color: red;
+    border: 3px solid white;   
+    color:  white; 
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
