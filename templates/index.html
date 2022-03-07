@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="/static/style.css">
+        <title>Covid Detection</title>
+    </head>
+    
+    <body background="/static/covid19.png">
+        <div class="main">
+            <p class="head">CHẨN ĐOÁN COVID-19<br>QUA ẢNH X-QUANG PHỔI</p>
+        
+            <form enctype="multipart/form-data" action="{{url_for('predict')}}" id="form1" method="POST" enctype="multipart/form-data">
+                <input type="file" name="image" id="image" style="display: none;"/>
+                <label for="image">
+                    <img src="/static/camera.png" height="260px" style="opacity: 30%;">
+                </label>
+                <br><br><br>
+                <button class="submit" type="submit">Chẩn đoán</button>  
+            </form>
+        </div> 
+    </body>
+</html>
+
